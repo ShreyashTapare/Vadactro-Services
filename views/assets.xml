@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <data>
+        <template id="Portal_Profile_asset" name="My style" inherit_id="web.assets_frontend">
+            <xpath expr="." position="inside">
+                <link rel="stylesheet" type="text/scss" href="/vadactro_services/static/src/css/looks.css" />
+                <!-- <script type="text/javascript" src="/vadactro_services/static/src/js/base.js"></script> -->
+            </xpath>
+        </template>
+    </data>
+</odoo>

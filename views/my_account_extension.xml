@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<odoo>
+
+    <template inherit_id="portal.portal_my_home" id="portal_my_home" name="Vadactro_Portal">
+        <xpath expr="//div[hasclass('o_portal_my_home')]" position="before">
+
+            <h3>VADACTRO Portal's</h3>
+            <hr />
+
+            <div>
+
+                <a class="vadactro_portal_button" href="https://customers.vadactro.org.in/" target="_blank">Customer</a>
+                <a class="vadactro_portal_button" href="https://dlm.vadactro.org.in/" target="_blank">Device Licence</a>
+                <a class="vadactro_portal_button" href="https://production.slbus.in/" target="_blank">Production</a>
+                <a class="vadactro_portal_button" href="https://sllic.vadactro.org.in/" target="_blank">SLLIC</a>
+                <a class="vadactro_portal_button" href="http://fwinfo.vadactro.org.in/" target="_blank">FWINFO</a>
+
+
+            </div>
+
+
+        </xpath>
+    </template>
+
+</odoo>

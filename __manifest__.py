@@ -24,7 +24,8 @@
 
     # always loaded
     'data': [
-        
+        'views/my_account_extension.xml',
+        'views/assets.xml'
     ],
 
     'sequence': -100 ,
