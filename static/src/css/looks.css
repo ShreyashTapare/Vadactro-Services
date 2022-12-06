@@ -1,6 +1,48 @@
 
-.vadactro_portal_button{
-    background-color: red;
-    height: 50px;
-    width: 50px;
+
+.portal_link_container{
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 15px; 
 }
+.vadactro_portal_button{
+    display:flex;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-top: 40px;
+    height:100px;
+    width:100px;
+
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    border-radius: 15px;
+    background-color: #00a2ff;
+
+    transition: border-radius 0.5s ease,background-color 1s ease-in-out;
+  
+}
+      
+
+
+.vadactro_portal_button:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+    border-radius: 10px;
+    
+    background-color:#007be0;
+    
+    
+    
+    
+}
+.vadactro_portal_button:link { text-decoration: none; }
+
+
+.vadactro_portal_button:visited { text-decoration: none; }
+
+
+.vadactro_portal_button:active { text-decoration: none; }
