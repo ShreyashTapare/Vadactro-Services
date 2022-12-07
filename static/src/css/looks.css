@@ -19,6 +19,9 @@
     font-weight: bold;
 
     border-radius: 15px;
+    border: 2px;
+    border-style: solid;
+    border-color:rgb(56, 56, 56);
     background-color: #00a2ff;
 
     transition: border-radius 0.5s ease, background-color 1s ease-in-out, padding-top 0.5s ease;
