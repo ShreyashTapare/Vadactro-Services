@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="emailValidation" name="Email Validation">
+
+        <t t-call="website.layout">
+
+            <div class="oe_structure">
+
+                <div class="container">
+
+                    <center>
+                        <div class="form_email">
+                            <form id="Email_Send" action="/email/validation" method="post">
+                                <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()" />
+                                <label for="fname">Email</label>
+                                <input type="text" id="Email" name="Email" />
+                                <input type="submit" value="Send" />
+                            </form>
+                            <form id="Email_Varify" action="/otp/verification" method="post">
+                                <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()" />
+                                <label for="OTP">OTP</label>
+                                <input type="text" id="OTP" name="OTP" />
+                                <input type="submit" value="Varify" />
+                            </form>
+                        </div>
+                    </center>
+                </div>
+            </div>
+
+        </t>
+
+    </template>
+
+
+</odoo>

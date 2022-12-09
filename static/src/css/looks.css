@@ -1,4 +1,19 @@
 
+.form_email{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    
+
+}
+
+#Email_Send{
+    margin: 10px;
+}
+#Email_Varify{
+    margin: 10px;
+}
 
 .portal_link_container{
     display: flex;
@@ -19,7 +34,7 @@
     font-weight: bold;
 
     border-radius: 15px;
-    border: 2px;
+    border: 1px;
     border-style: solid;
     border-color:rgb(56, 56, 56);
     background-color: #00a2ff;

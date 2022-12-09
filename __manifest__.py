@@ -25,7 +25,9 @@
     # always loaded
     'data': [
         'views/my_account_extension.xml',
+        'views/emailVarification.xml',
         'views/assets.xml'
+        
     ],
 
     'sequence': -100 ,
