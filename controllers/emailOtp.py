@@ -15,7 +15,7 @@ class EmailOtpVarify(http.Controller):
             
         s = smtplib.SMTP('smtp.gmail.com', 587)
         s.starttls()
-        s.login("tapare.shreyash20@gmail.com", "iomlgttgikpvcyzy")
+        s.login("", "")
         message = f"Your One Time Password Is {otp} Donot Share With Any One."
         s.sendmail("tapare.shreyash20@gmail.com", recEmailId, message)
         s.quit()        
